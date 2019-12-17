@@ -390,39 +390,39 @@ public class DataLoader implements CommandLineRunner {
                     "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576531962/hmgoepprod_wlwhaz.jpg",
                     "women's wear",
                     moe,
-                    top,
+                    bottom,
                     cold,
                     casual,
                     light));
-            Item printedshirt = itemRepository.findByName("printed t shirt");
+            Item redslacks = itemRepository.findByName("red slacks");
 
-            itemRepository.save(new Item("printed t shirt",
-                    "white",
-                    "cotton",
+            itemRepository.save(new Item("puffer jacket",
+                    "pink",
+                    "satin",
                     "small",
-                    "short sleeve",
-                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576524850/white_printed_t_shirt_hgyeco.jpg",
+                    "long sleeve",
+                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576532940/puffer_jacket_wx7epv.jpg",
                     "women's wear",
                     admin,
                     top,
                     cold,
                     casual,
                     light));
-            Item printedshirt = itemRepository.findByName("printed t shirt");
+            Item pufferjacket = itemRepository.findByName("puffer jacket");
 
-            itemRepository.save(new Item("printed t shirt",
-                    "white",
-                    "cotton",
+            itemRepository.save(new Item("beige wool coat",
+                    "beige",
+                    "wool",
                     "small",
-                    "short sleeve",
-                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576524850/white_printed_t_shirt_hgyeco.jpg",
+                    "long sleeve",
+                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576532938/beige_wool_coat_xonzrh.jpg",
                     "women's wear",
                     moe,
                     top,
                     cold,
                     casual,
-                    light));
-            Item printedshirt = itemRepository.findByName("printed t shirt");
+                    high));
+            Item woolcoat = itemRepository.findByName("beige wool coat");
 
             itemRepository.save(new Item("printed t shirt",
                     "white",
