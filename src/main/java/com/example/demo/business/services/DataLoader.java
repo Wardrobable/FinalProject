@@ -424,215 +424,355 @@ public class DataLoader implements CommandLineRunner {
                     high));
             Item woolcoat = itemRepository.findByName("beige wool coat");
 
-            itemRepository.save(new Item("printed t shirt",
-                    "white",
-                    "cotton",
-                    "small",
-                    "short sleeve",
-                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576524850/white_printed_t_shirt_hgyeco.jpg",
-                    "women's wear",
+            itemRepository.save(new Item("down jacket",
+                    "black",
+                    "satin",
+                    "extra large",
+                    "long sleeve",
+                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576532937/down_jacket_r5cqro.jpg",
+                    "men's wear",
                     admin,
                     top,
                     cold,
                     casual,
-                    light));
-            Item printedshirt = itemRepository.findByName("printed t shirt");
+                    high));
+            Item downjacket = itemRepository.findByName("down jacket");
 
-            itemRepository.save(new Item("printed t shirt",
-                    "white",
+            itemRepository.save(new Item("sequin jacket",
+                    "silver",
+                    "sequins",
+                    "medium",
+                    "long sleeve",
+                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576532936/sequin_jacket_hjkkkd.jpg",
+                    "women's wear",
+                    moe,
+                    top,
+                    hot,
+                    casual,
+                    light));
+            Item sequinedjacket = itemRepository.findByName("sequin jacket");
+
+            itemRepository.save(new Item("faux parka",
+                    "black and brown",
                     "cotton",
                     "small",
-                    "short sleeve",
-                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576524850/white_printed_t_shirt_hgyeco.jpg",
-                    "women's wear",
+                    "long sleeve",
+                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576532935/fauz_parka_bo1bfv.jpg",
+                    "men's wear",
+                    admin,
+                    top,
+                    cold,
+                    casual,
+                    high));
+            Item fauxparka = itemRepository.findByName("faux parka");
+
+            itemRepository.save(new Item("padded parka",
+                    "blue",
+                    "cotton",
+                    "large",
+                    "long sleeve",
+                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576532934/padded_parka_dzbspj.jpg",
+                    "men's wear",
                     moe,
                     top,
                     cold,
                     casual,
-                    light));
-            Item printedshirt = itemRepository.findByName("printed t shirt");
+                    high));
+            Item paddedparka = itemRepository.findByName("padded parka");
 
-            itemRepository.save(new Item("printed t shirt",
-                    "white",
-                    "cotton",
+            itemRepository.save(new Item("knit wool blend hat",
+                    "brown",
+                    "wool",
                     "small",
-                    "short sleeve",
-                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576524850/white_printed_t_shirt_hgyeco.jpg",
+                    "short",
+                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576593795/knit_wool_blend_hat_o96mut.jpg",
                     "women's wear",
                     admin,
-                    top,
+                    accessories,
                     cold,
                     casual,
                     light));
-            Item printedshirt = itemRepository.findByName("printed t shirt");
+            Item woolhat = itemRepository.findByName("knit wool blend hat");
 
-            itemRepository.save(new Item("printed t shirt",
-                    "white",
-                    "cotton",
+            itemRepository.save(new Item("alpaca blend scarf",
+                    "white and pink",
+                    "alpaca",
                     "small",
-                    "short sleeve",
-                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576524850/white_printed_t_shirt_hgyeco.jpg",
+                    "long sleeve",
+                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576593795/alpaca_blend_scarf_f4g6o0.jpg",
                     "women's wear",
                     moe,
-                    top,
+                    accessories,
                     cold,
                     casual,
                     light));
-            Item printedshirt = itemRepository.findByName("printed t shirt");
+            Item alpacascarf = itemRepository.findByName("alpaca blend scarf");
 
-            itemRepository.save(new Item("printed t shirt",
-                    "white",
-                    "cotton",
+            itemRepository.save(new Item("shoulder purse",
+                    "black",
+                    "synthetic",
                     "small",
                     "short sleeve",
-                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576524850/white_printed_t_shirt_hgyeco.jpg",
+                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576593796/bag_rp02xy.jpg",
                     "women's wear",
                     admin,
-                    top,
-                    cold,
+                    accessories,
+                    rainy,
                     casual,
                     light));
-            Item printedshirt = itemRepository.findByName("printed t shirt");
+            Item shoulderpurse = itemRepository.findByName("shoulder purse");
 
-            itemRepository.save(new Item("printed t shirt",
-                    "white",
-                    "cotton",
+            itemRepository.save(new Item("6pc ear cuffs",
+                    "multicolored",
+                    "plastic",
                     "small",
                     "short sleeve",
-                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576524850/white_printed_t_shirt_hgyeco.jpg",
+                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576593795/6pc_ear_cuffs_ispehc.jpg",
                     "women's wear",
                     moe,
-                    top,
-                    cold,
+                    accessories,
+                    rainy,
                     casual,
-                    light));
-            Item printedshirt = itemRepository.findByName("printed t shirt");
+                    moderate));
+            Item earcuffs = itemRepository.findByName("6pc ear cuffs");
 
-            itemRepository.save(new Item("printed t shirt",
-                    "white",
-                    "cotton",
-                    "small",
-                    "short sleeve",
-                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576524850/white_printed_t_shirt_hgyeco.jpg",
-                    "women's wear",
+            itemRepository.save(new Item("cashmere travel pack",
+                    "cream",
+                    "cashmere",
+                    "medium",
+                    "long sleeve",
+                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576593795/cashmere_travel_pack_yj0bw3.jpg",
+                    "men's wear",
                     admin,
-                    top,
+                    accessories,
                     cold,
-                    casual,
-                    light));
-            Item printedshirt = itemRepository.findByName("printed t shirt");
+                    formal,
+                    high));
+            Item cashmerepack = itemRepository.findByName("cashmere travel pack");
 
-            itemRepository.save(new Item("printed t shirt",
-                    "white",
-                    "cotton",
+            itemRepository.save(new Item("rhinestone hairband",
+                    "multicolored",
+                    "synthetic",
                     "small",
-                    "short sleeve",
-                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576524850/white_printed_t_shirt_hgyeco.jpg",
+                    "long",
+                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576593795/rhinestone_hairband_hy9cyw.jpg",
                     "women's wear",
                     moe,
-                    top,
-                    cold,
-                    casual,
+                    accessories,
+                    mild,
+                    formal,
                     light));
-            Item printedshirt = itemRepository.findByName("printed t shirt");
+            Item rhinestonehairband = itemRepository.findByName("rhinestone hairband");
 
-            itemRepository.save(new Item("printed t shirt",
-                    "white",
-                    "cotton",
-                    "small",
-                    "short sleeve",
-                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576524850/white_printed_t_shirt_hgyeco.jpg",
-                    "women's wear",
+            itemRepository.save(new Item("narrow belt",
+                    "black",
+                    "leather",
+                    "medium",
+                    "long",
+                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576593796/narrow_belt_fa7yek.jpg",
+                    "men's wear",
                     admin,
-                    top,
-                    cold,
+                    accessories,
+                    mild,
                     casual,
                     light));
-            Item printedshirt = itemRepository.findByName("printed t shirt");
+            Item narrowbelt = itemRepository.findByName("narrow belt");
 
-            itemRepository.save(new Item("printed t shirt",
-                    "white",
-                    "cotton",
-                    "small",
-                    "short sleeve",
-                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576524850/white_printed_t_shirt_hgyeco.jpg",
-                    "women's wear",
+            itemRepository.save(new Item("dark yellow leather gloves",
+                    "dark yellow",
+                    "leather",
+                    "extra small",
+                    "long sleeve",
+                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576593795/dyellow_leather_gloves_vvyfi3.jpg",
+                    "Unisex",
                     moe,
-                    top,
+                    accessories,
                     cold,
                     casual,
-                    light));
-            Item printedshirt = itemRepository.findByName("printed t shirt");
+                    high));
+            Item dyellowleathergloves = itemRepository.findByName("dark yellow leather gloves");
 
-            itemRepository.save(new Item("printed t shirt",
-                    "white",
-                    "cotton",
+            itemRepository.save(new Item("scrunchie with scarf",
+                    "black and white",
+                    "satin",
                     "small",
                     "short sleeve",
-                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576524850/white_printed_t_shirt_hgyeco.jpg",
+                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576593795/scrunchie_with_scarf_wrkzyv.jpg",
                     "women's wear",
                     admin,
-                    top,
+                    accessories,
                     cold,
                     casual,
                     light));
-            Item printedshirt = itemRepository.findByName("printed t shirt");
+            Item scrunchiescarf = itemRepository.findByName("scrunchie with scarf");
 
-            itemRepository.save(new Item("printed t shirt",
-                    "white",
-                    "cotton",
-                    "small",
+            itemRepository.save(new Item("leather gloves with tassels",
+                    "black",
+                    "leather",
+                    "medium",
                     "short sleeve",
-                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576524850/white_printed_t_shirt_hgyeco.jpg",
-                    "women's wear",
+                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576593795/leather_gloves_with_tassels_bccuo7.jpg",
+                    "Unisex",
                     moe,
-                    top,
+                    accessories,
                     cold,
-                    casual,
+                    formal,
                     light));
-            Item printedshirt = itemRepository.findByName("printed t shirt");
+            Item tasselgloves = itemRepository.findByName("leather gloves with tassels");
 
-            itemRepository.save(new Item("printed t shirt",
-                    "white",
-                    "cotton",
-                    "small",
+            itemRepository.save(new Item("double stranded necklace",
+                    "pink",
+                    "plastic",
+                    "medium",
                     "short sleeve",
-                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576524850/white_printed_t_shirt_hgyeco.jpg",
+                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576593795/double_strand_necklace_zzjd7i.jpg",
                     "women's wear",
                     admin,
-                    top,
-                    cold,
-                    casual,
+                    accessories,
+                    rainy,
+                    formal,
                     light));
-            Item printedshirt = itemRepository.findByName("printed t shirt");
+            Item necklace = itemRepository.findByName("double stranded necklace");
 
-            itemRepository.save(new Item("printed t shirt",
-                    "white",
-                    "cotton",
-                    "small",
-                    "short sleeve",
-                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576524850/white_printed_t_shirt_hgyeco.jpg",
-                    "women's wear",
-                    moe,
-                    top,
-                    cold,
-                    casual,
-                    light));
-            Item printedshirt = itemRepository.findByName("printed t shirt");
-
-            itemRepository.save(new Item("printed t shirt",
-                    "white",
-                    "cotton",
-                    "small",
-                    "short sleeve",
-                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576524850/white_printed_t_shirt_hgyeco.jpg",
-                    "women's wear",
+            itemRepository.save(new Item("felted wool hat",
+                    "brown",
+                    "felted wool",
+                    "large",
+                    "long sleeve",
+                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576593795/felted_wool_hat_gngyku.jpg",
+                    "Unisex",
                     admin,
-                    top,
+                    accessories,
+                    rainy,
+                    formal,
+                    light));
+            Item feltedwoolhat = itemRepository.findByName("felted wool hat");
+
+            itemRepository.save(new Item("rib knit hat",
+                    "blue",
+                    "beanie",
+                    "medium",
+                    "short sleeve",
+                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576593795/rib_knit_hat_avts9r.jpg",
+                    "men's wear",
+                    admin,
+                    accessories,
+                    rainy,
+                    casual,
+                    light));
+            Item knithat = itemRepository.findByName("rib knit hat");
+
+            itemRepository.save(new Item("leather bag",
+                    "brown",
+                    "leather",
+                    "large",
+                    "short",
+                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576598449/leather_bag_fec4fc.jpg",
+                    "men's wear",
+                    admin,
+                    accessories,
                     cold,
                     casual,
                     light));
-            Item printedshirt = itemRepository.findByName("printed t shirt");
+            Item leatherbag = itemRepository.findByName("leather bag");
+
+            itemRepository.save(new Item("mens leather watch",
+                    "red",
+                    "leather",
+                    "medium",
+                    "short sleeve",
+                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576598449/leather_watch_yngf6n.jpg",
+                    "men's wear",
+                    admin,
+                    accessories,
+                    hot,
+                    formal,
+                    light));
+            Item menswatch = itemRepository.findByName("mens leather watch");
+
+            itemRepository.save(new Item("bow tie",
+                    "black",
+                    "satin",
+                    "small",
+                    "short sleeve",
+                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576598449/satin_bow_tie_ieozgr.jpg",
+                    "men's wear",
+                    admin,
+                    accessories,
+                    hot,
+                    formal,
+                    high));
+            Item bowtie = itemRepository.findByName("bow tie");
+
+            itemRepository.save(new Item("clear eyeglasses",
+                    "clear",
+                    "glass",
+                    "small",
+                    "short sleeve",
+                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576598449/clear_eyeglasses_zi7fqo.jpg",
+                    "unisex",
+                    admin,
+                    accessories,
+                    rainy,
+                    casual,
+                    light));
+            Item eyeglasses = itemRepository.findByName("clear eyeglasses");
+
+            itemRepository.save(new Item("3pc rings",
+                    "multicolor",
+                    "plastic",
+                    "large",
+                    "short sleeve",
+                    "hhttps://res.cloudinary.com/dxh39s0nz/image/upload/v1576598449/3pc_rings_wnubck.jpg",
+                    "men's wear",
+                    admin,
+                    accessories,
+                    hot,
+                    formal,
+                    light));
+            Item rings = itemRepository.findByName("3pc rings");
+
+            itemRepository.save(new Item("black leather wallet",
+                    "black",
+                    "leather",
+                    "medium",
+                    "long sleeve",
+                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576598449/black_leather_wallet_tqjevi.jpg",
+                    "men's wear",
+                    admin,
+                    accessories,
+                    hot,
+                    formal,
+                    moderate));
+            Item wallet = itemRepository.findByName("black leather wallet");
+
+            itemRepository.save(new Item("hat with earflaps",
+                    "blue",
+                    "beanie",
+                    "small",
+                    "short sleeve",
+                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576598449/hat_with_earflaps_koejag.jpg",
+                    "womens wear",
+                    admin,
+                    accessories,
+                    rainy,
+                    casual,
+                    light));
+            Item earflapshat = itemRepository.findByName("hat with earflaps");
+
+            itemRepository.save(new Item("black leather watch",
+                    "black",
+                    "leather",
+                    "medium",
+                    "short sleeve",
+                    "https://res.cloudinary.com/dxh39s0nz/image/upload/v1576598449/black_leather_watch_kirhrf.jpg",
+                    "men's wear",
+                    admin,
+                    accessories,
+                    rainy,
+                    formal,
+                    light));
+            Item leatherwatch = itemRepository.findByName("black leather watch");
         }
     }
 }
